@@ -95,12 +95,24 @@
    - Composant de capture + moteur de mise en correspondance facture vs blockchain
    - API d'audit algorithmique simple
    - Analyse PDF/factures
-4. **Déployer l'observatoire et la preuve visuelle**
-   - Carte interactive des signalements
-   - Support photo/IPFS pour preuves visuelles
-5. **Renforcer le parcours juridique**
-   - Génération de dossier ARSEL
-   - Suivi de conciliation et historique d'audit
+4. **Déployer l'observatoire et la preuve visuelle** (NEXT)
+   - **Carte des signalements** : géolocalisation/filtrage (quartier/zone) + statut (nouveau/en cours/validé)
+   - **Flux preuve visuelle** : capture photo + validation (qualité, lisibilité) + prévisualisation
+   - **Stockage preuve** : intégration IPFS (ou stockage local mock) + génération CID + versionnement
+   - **Indexation** : lier les preuves au **dossier de réclamation** (preuve ↔ dossier) avec historique
+   - **UI de preuve** : timeline et liste des pièces, export/lecture côté utilisateur
+5. **Renforcer le parcours juridique** (NEXT)
+   - **Dossier ARSEL** : génération automatique (PDF) + pack ZIP (tous les documents) à partir des preuves
+   - **Suivi conciliation** : étapes (dépôt, examen, demandes, décision) + jalons horodatés
+   - **Journal d’actions** : actions utilisateur/opérateur (création, modification, validation, export)
+   - **Traçabilité opérateur** : permissions/roles + audit des actions sensibles
+   - **Portail de conciliation** : timeline bidirectionnelle opérateur ↔ abonné (messages/documents)
+6. **Ajouter les fondations d'audit & conformité (transversal)** (NEXT)
+   - **Journaux d’accès** : qui a consulté/chargé/téléchargé/validé (userId, timestamp, ressource)
+   - **Audit trail preuves** : hash ↔ métadonnées ↔ horodatage (preuves, facture, documents ARSEL)
+   - **Chaîne de vérification** : génération d’un “audit report” (JSON + PDF léger) pour vérification externe
+   - **Exports d’audit** : export contrôlé (signature/empreinte) + traçabilité d’export
+   - **Conformité** : règles de conservation/masquage (si PII), et stratégie de rétention
 
 ## 📁 Fichiers clés à vérifier
 
