@@ -63,7 +63,23 @@
 
 ## ❌ Non implémenté / restant à faire
 
-- (Toutes les fonctionnalités majeures ont été implémentées)
+- **Scanner IA Live-Proof**
+  - Pas d'interface de capture de compteur, pas de vérification de localisation ou d'intégrité
+- **Audit Algorithmique par IA**
+  - Pas de traitement de PDF/factures ou d'analyse IA
+- **Justice Numérique effective**
+  - Pas de génération de dossiers juridiques certifiés
+  - Pas de portail de conciliation bidirectionnel opérateur-abonné
+- **Observatoire Communautaire**
+  - Pas de carte interactive de signalements ou de visualisation par quartier
+- **Preuve Visuelle IPFS**
+  - Pas de module de stockage de photos de compteurs ni d'IPFS
+- **Journaux d'Audit & Sécurité**
+  - Pas de logs d'accès, traçabilité ou audit détaillé
+- **Profil & Paramètres**
+  - Aucun écran de gestion d'identité NIU, 2FA ou alertes de facturation
+- **Centre d'Aide & Documentation**
+  - Pas de section FAQ / docs pédagogiques dans l'app
 
 ## 📌 Recommandations de priorisation
 
@@ -75,23 +91,16 @@
    - Gestion utilisateur (identité, NIU, contrat)
    - 2FA avec SMS activable
    - Notifications préférences et gestion de sessions
-3. ✅ **Construire le scanner IA et l'audit** (DONE)
+3. **Construire le scanner IA et l'audit** (NEXT)
    - Composant de capture + moteur de mise en correspondance facture vs blockchain
    - API d'audit algorithmique simple
    - Analyse PDF/factures
-4. ✅ **Déployer l'observatoire et la preuve visuelle** (DONE)
-   - **Carte des signalements** : géolocalisation/filtrage (quartier/zone) + statut (nouveau/en cours/validé)
-   - **Flux preuve visuelle** : capture photo + validation (qualité, lisibilité) + prévisualisation
-   - **Stockage preuve** : intégration IPFS (ou stockage local mock) + génération CID + versionnement
-   - **Indexation** : lier les preuves au **dossier de réclamation** (preuve ↔ dossier) avec historique
-   - **UI de preuve** : timeline et liste des pièces, export/lecture côté utilisateur
-5. ✅ **Renforcer le parcours juridique** (DONE)
-   - **Dossier ARSEL** : interface d'arbitrage
-   - (Reste PDF Automatique & logs très détaillés prénant plus de vue globale)
-6. ✅ **Ajouter les fondations d'audit & conformité (transversal)** (DONE)
-   - **Journaux d’accès** : accès simulés et traçabilité (userId, timestamp, ressource)
-   - **Audit trail preuves** : logs liés au SC et SOCADEL.
-   - **Exports d’audit** : UI d'export du trail d'audit.
+4. **Déployer l'observatoire et la preuve visuelle**
+   - Carte interactive des signalements
+   - Support photo/IPFS pour preuves visuelles
+5. **Renforcer le parcours juridique**
+   - Génération de dossier ARSEL
+   - Suivi de conciliation et historique d'audit
 
 ## 📁 Fichiers clés à vérifier
 

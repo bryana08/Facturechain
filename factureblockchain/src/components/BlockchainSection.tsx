@@ -5,7 +5,7 @@ const features = [
     icon: "🔒",
     title: "Immuabilité",
     description:
-      "Aucune donnée modifiable après ancrage. Ni SOCADEL, ni personne.",
+      "Aucune donnée modifiable après ancrage. Ni ENEO, ni personne.",
   },
   {
     icon: "⏱",
@@ -41,7 +41,7 @@ const blocks = [
   {
     title: "Prochain bloc...",
     time: "En attente",
-    hash: "Décision SOCADEL · Escalade ARSEL si délai dépassé",
+    hash: "Décision ENEO · Escalade ARSEL si délai dépassé",
     data: "",
     muted: true,
   },
@@ -64,7 +64,7 @@ export default function BlockchainSection() {
             </h2>
             <p className="max-w-xl text-base leading-8 text-slate-300">
               Un historique de consommation enregistré sur blockchain est
-              immuable. SOCADEL ne peut pas modifier les données après
+              immuable. ENEO ne peut pas modifier les données après
               enregistrement. Une anomalie entre l'historique blockchain et la
               facture est une preuve légale de surfacturation.
             </p>

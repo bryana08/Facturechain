@@ -3,7 +3,7 @@ import RevealOnScroll from "./RevealOnScroll";
 const stats = [
   {
     value: "40%",
-    label: "des abonnés SOCADEL contestent une facture/an",
+    label: "des abonnés ENEO contestent une facture/an",
     color: "text-orange-400",
   },
   {

@@ -5,7 +5,7 @@ const solutions = [
     icon: "📊",
     title: "Suivi transparent",
     description:
-      "Chaque relevé de compteur est ancré sur Polygon avec un hash et un timestamp certifié. SOCADEL ne peut pas modifier ces données après enregistrement.",
+      "Chaque relevé de compteur est ancré sur Polygon avec un hash et un timestamp certifié. ENEO ne peut pas modifier ces données après enregistrement.",
     tag: "BLOCKCHAIN",
     tagClass: "bg-sky-400/10 text-sky-300",
   },
@@ -13,7 +13,7 @@ const solutions = [
     icon: "⚡",
     title: "Détection automatique",
     description:
-      "Le smart contract compare consommation réelle (blockchain) et montant facturé (SOCADEL). Si l'écart dépasse 5%, l'anomalie est flagguée instantanément.",
+      "Le smart contract compare consommation réelle (blockchain) et montant facturé (ENEO). Si l'écart dépasse 5%, l'anomalie est flagguée instantanément.",
     tag: "SMART CONTRACT",
     tagClass: "bg-orange-400/10 text-orange-300",
   },
@@ -29,7 +29,7 @@ const solutions = [
     icon: "🔍",
     title: "Suivi de résolution",
     description:
-      "Timeline traçable avec 5 étapes ancrées sur blockchain. Si SOCADEL dépasse le délai légal, le smart contract escalade automatiquement vers l'ARSEL.",
+      "Timeline traçable avec 5 étapes ancrées sur blockchain. Si ENEO dépasse le délai légal, le smart contract escalade automatiquement vers l'ARSEL.",
     tag: "ESCALADE AUTO",
     tagClass: "bg-orange-400/10 text-orange-300",
   },

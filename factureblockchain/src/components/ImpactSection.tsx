@@ -7,13 +7,13 @@ const impactCards = [
       "Réduction des surfacturations via vérification en temps réel",
       "Délai de résolution réduit à moins de 30 jours (vs 18 mois)",
       "Économies directes pour les ménages et les PME",
-      "Autonomisation face au monopole SOCADEL",
+      "Autonomisation face au monopole ENEO",
     ],
   },
   {
     title: "🌍 Impact systémique",
     items: [
-      "Pression collective sur SOCADEL via données agrégées publiques",
+      "Pression collective sur ENEO via données agrégées publiques",
       "L'ARSEL dispose de preuves concrètes pour agir par zone",
       "Réduction progressive du taux de 30% de pertes refacturées",
       "Modèle reproductible dans toute l'Afrique subsaharienne",

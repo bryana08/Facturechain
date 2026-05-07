@@ -4,17 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const items = [
-  { href: "/dashboard",     label: "Dashboard",      icon: "📊" },
-  { href: "/scanner",      label: "Scanner IA",     icon: "📷" },
-  { href: "/audit",        label: "Audit",          icon: "🔍" },
-  { href: "/observatoire", label: "Observatoire",   icon: "🗺" },
-  { href: "/preuves",      label: "Preuves IPFS",   icon: "📎" },
-  { href: "/reclamation",  label: "Réclamations",   icon: "📋" },
-  { href: "/suivi",        label: "Suivi",          icon: "📡" },
-  { href: "/juridique",    label: "Portail ARSEL",  icon: "⚖️" },
-  { href: "/conformite",   label: "Audit Trail",    icon: "🛡️" },
-  { href: "/profile",      label: "Profil",         icon: "⚙️" },
-  { href: "/",             label: "Accueil",        icon: "🏠" },
+  { href: "/dashboard", label: "Dashboard", icon: "📊" },
+  { href: "/reclamation", label: "Réclamations", icon: "📋" },
+  { href: "/suivi", label: "Suivi", icon: "🔍" },
+  { href: "/profile", label: "Profil", icon: "⚙️" },
+  { href: "/", label: "Accueil", icon: "🏠" },
 ];
 
 export default function ResponsiveSidebar() {

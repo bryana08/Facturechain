@@ -22,8 +22,59 @@ export default function DashboardConsommationPage() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-white">
-      <div className="mx-auto w-full max-w-7xl px-3 sm:px-4 md:px-6 lg:px-8 py-4 sm:py-6 md:py-10">
-        <main className="w-full">
+      <div className="mx-auto flex min-h-screen max-w-[1400px] px-6 py-10 xl:px-10">
+        <aside className="sticky top-10 hidden h-fit w-72 shrink-0 rounded-[32px] border border-white/10 bg-slate-900/95 p-6 text-slate-300 shadow-[0_24px_80px_rgba(0,0,0,0.35)] xl:block">
+          <div className="mb-8 space-y-3">
+            <div className="text-2xl font-black text-white">
+              Facture<span className="text-orange-400">Chain</span>
+            </div>
+            <div className="text-xs uppercase tracking-[0.35em] text-slate-500">
+              Phase 2 — Demi-finale
+            </div>
+          </div>
+          <div className="space-y-2">
+            <Link
+              href="/dashboard"
+              className="flex w-full items-center gap-3 rounded-2xl px-4 py-3 text-left text-sm font-semibold transition text-slate-300 hover:bg-white/5 hover:text-white"
+            >
+              <span>📊</span>
+              Dashboard
+            </Link>
+            <div className="flex w-full items-center gap-3 rounded-2xl bg-orange-500/10 px-4 py-3 text-sm font-semibold text-orange-300">
+              <span>📈</span>
+              Consommation
+            </div>
+            <Link
+              href="/dashboard/factures"
+              className="flex w-full items-center gap-3 rounded-2xl px-4 py-3 text-left text-sm font-semibold transition text-slate-300 hover:bg-white/5 hover:text-white"
+            >
+              <span>📄</span>
+              Factures
+            </Link>
+            <Link
+              href="/dashboard/blockchain"
+              className="flex w-full items-center gap-3 rounded-2xl px-4 py-3 text-left text-sm font-semibold transition text-slate-300 hover:bg-white/5 hover:text-white"
+            >
+              <span>⛓</span>
+              Blockchain
+            </Link>
+          </div>
+          <div className="mt-8 rounded-3xl border border-white/10 bg-slate-950/80 p-4 text-sm text-slate-400">
+            <div className="mb-3 font-semibold text-slate-100">Projet</div>
+            <div className="mb-2">⛓ Polygon Network</div>
+            <div>🏛 ARSEL API</div>
+          </div>
+          <div className="mt-5 rounded-3xl border border-white/10 bg-slate-950/80 p-4 text-xs text-slate-400">
+            <div className="mb-3">MIABE Hackathon 2026</div>
+            <div className="flex items-center gap-2">
+              <span className="inline-flex h-2 w-2 rounded-full bg-emerald-400" />{" "}
+              Polygon — connecté
+            </div>
+            <div className="mt-2">ODD 7 · ODD 11 · ODD 16</div>
+          </div>
+        </aside>
+
+        <main className="w-full xl:ml-8">
           <div className="mb-10 rounded-[36px] border border-white/10 bg-slate-900/95 p-8 shadow-[0_32px_100px_rgba(0,0,0,0.35)]">
             <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
               <div>
@@ -105,7 +156,7 @@ export default function DashboardConsommationPage() {
                 <p className="mt-4 text-sm leading-7 text-slate-300">
                   Le détail de la consommation confirme un écart de +24.7% sur
                   Août 2026. Ce contraste entre la mesure réelle blockchain et
-                  la facture SOCADEL sert de base à une éventuelle réclamation.
+                  la facture ENEO sert de base à une éventuelle réclamation.
                 </p>
                 <div className="mt-8 grid gap-4 sm:grid-cols-2">
                   {[

@@ -31,7 +31,7 @@ export default function Hero() {
           <RevealOnScroll>
             <div>
               <h1 className="text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-                Votre facture SOCADEL,
+                Votre facture ENEO,
                 <span className="block text-orange-400">enfin vérifiable.</span>
               </h1>
               <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
@@ -91,7 +91,7 @@ export default function Hero() {
               </div>
               <div className="rounded-3xl bg-slate-950/80 p-5">
                 <div className="text-[10px] uppercase tracking-[0.3em] text-slate-500">
-                  Facturé SOCADEL
+                  Facturé ENEO
                 </div>
                 <div className="mt-3 text-2xl font-black text-orange-300">
                   389 kWh

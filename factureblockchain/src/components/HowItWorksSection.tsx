@@ -12,7 +12,7 @@ const steps = [
     number: 2,
     title: "Anomalie détectée",
     description:
-      "Le smart contract compare votre consommation réelle et la facture SOCADEL. Alerte automatique si écart > 5%.",
+      "Le smart contract compare votre consommation réelle et la facture ENEO. Alerte automatique si écart > 5%.",
     color: "border-sky-400 bg-sky-500/10 text-sky-300",
   },
   {

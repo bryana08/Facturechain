@@ -16,9 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FactureChain — Transparence de la facturation électrique",
-  description:
-    "Plateforme blockchain de transparence, audit et réclamation de facturation électrique avec ancrage Polygon et dossiers ARSEL.",
+  title: "FactureChain",
+  description: "Transparence de la facturation électrique avec blockchain",
 };
 
 export default function RootLayout({

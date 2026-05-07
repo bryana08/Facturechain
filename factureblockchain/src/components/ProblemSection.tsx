@@ -12,7 +12,7 @@ const issues = [
       "Un litige peut durer 6 à 18 mois. Pendant ce temps, l'abonné continue de payer les montants contestés.",
   },
   {
-    title: "SOCADEL contrôle tout",
+    title: "ENEO contrôle tout",
     description:
       "Les données de consommation appartiennent à l'opérateur. Le client n'a aucune preuve indépendante.",
   },
@@ -33,7 +33,7 @@ export default function ProblemSection() {
               </h2>
               <p className="max-w-xl text-base leading-8 text-slate-300">
                 À Yaoundé et Douala, les délestages atteignent 8 à 12 heures par
-                jour. Dans ce contexte, les factures SOCADEL arrivent — souvent
+                jour. Dans ce contexte, les factures ENEO arrivent — souvent
                 surestimées — sans aucun moyen de les contester efficacement.
               </p>
               <div className="grid gap-5">
@@ -60,7 +60,7 @@ export default function ProblemSection() {
                 ⚠ Problème Central
               </h3>
               <p className="mt-4 text-sm leading-8 text-white">
-                Les abonnés camerounais de SOCADEL reçoivent des factures qu'ils ne
+                Les abonnés camerounais d'ENEO reçoivent des factures qu'ils ne
                 peuvent ni vérifier ni contester efficacement. Il n'existe
                 aucune transparence sur la consommation réelle, aucun historique
                 vérifiable, et aucun mécanisme de réclamation rapide.
