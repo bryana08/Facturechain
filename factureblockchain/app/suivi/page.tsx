@@ -24,7 +24,7 @@ const timeline = [
     status: "active",
     title: "Instruction en cours",
     date: "13 Août 2026",
-    desc: "L'opérateur ENEO analyse la réclamation et prépare une réponse.",
+    desc: "L'opérateur SOCADEL analyse la réclamation et prépare une réponse.",
     hash: "En attente",
     badge: "badge-active",
   },

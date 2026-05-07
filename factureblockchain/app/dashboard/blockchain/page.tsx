@@ -69,7 +69,7 @@ export default function DashboardBlockchainPage() {
                   <p>
                     Les données blockchain consolident la preuve de consommation
                     réelle avec un horodatage immuable. Ce registre est le
-                    premier élément utilisé pour contester une facture ENEO.
+                    premier élément utilisé pour contester une facture SOCADEL.
                   </p>
                   <p>
                     Les hashes peuvent être présentés à l'ARSEL ou à un

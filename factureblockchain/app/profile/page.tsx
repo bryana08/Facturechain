@@ -130,7 +130,7 @@ export default function ProfilePage() {
                           Opérateur
                         </div>
                         <div className="mt-2 text-lg font-semibold text-white">
-                          ENEO Cameroon
+                          SOCADEL Cameroon
                         </div>
                       </div>
                       <div className="rounded-3xl border border-white/10 bg-slate-950/80 p-4">

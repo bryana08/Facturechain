@@ -6,7 +6,7 @@ import { useState } from "react";
 const sections = [
   {
     title: "Infos contrat",
-    description: "Facture Août 2026 · ENEO · Contrat CMR-YDE-2847391",
+    description: "Facture Août 2026 · SOCADEL · Contrat CMR-YDE-2847391",
   },
   {
     title: "Preuve blockchain",
@@ -36,7 +36,7 @@ export default function ReclamationPage() {
                   Nouvelle Réclamation
                 </h1>
                 <p className="mt-1 md:mt-2 text-xs md:text-sm text-slate-400 truncate">
-                  Facture Août 2026 · ENEO · Contrat CMR-YDE-2847391
+                  Facture Août 2026 · SOCADEL · Contrat CMR-YDE-2847391
                 </p>
               </div>
               <Link
@@ -92,7 +92,7 @@ export default function ReclamationPage() {
                     <div className="grid gap-3 md:gap-6">
                       {[
                         {
-                          label: "Numéro de contrat ENEO",
+                          label: "Numéro de contrat SOCADEL",
                           value: "CMR-YDE-2847391",
                         },
                         { label: "Période contestée", value: "Août 2026" },
@@ -106,7 +106,7 @@ export default function ReclamationPage() {
                           value: "312 kWh",
                         },
                         {
-                          label: "Consommation facturée (kWh ENEO)",
+                          label: "Consommation facturée (kWh SOCADEL)",
                           value: "389 kWh · Écart : +77 kWh (+24.7%)",
                         },
                       ].map((field) => (
@@ -198,7 +198,7 @@ export default function ReclamationPage() {
                 <div className="mt-3 md:mt-6 rounded-lg md:rounded-3xl border border-sky-400/20 bg-slate-950/80 p-2.5 md:p-4 text-xs md:text-sm text-sky-300">
                   <div className="font-semibold">Escalade automatique</div>
                   <p className="mt-1 md:mt-2 text-slate-400">
-                    Si ENEO dépasse le délai légal, le smart contract escalade
+                    Si SOCADEL dépasse le délai légal, le smart contract escalade
                     automatiquement.
                   </p>
                 </div>

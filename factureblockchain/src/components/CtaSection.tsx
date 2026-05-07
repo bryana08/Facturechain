@@ -9,7 +9,7 @@ export default function CtaSection() {
           <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl">
             Prêt à vérifier
             <br />
-            votre <span className="text-orange-400">facture ENEO</span> ?
+            votre <span className="text-orange-400">facture SOCADEL</span> ?
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-slate-300">
             Accédez à la démo live de FactureChain — Phase 2 Demi-finale.

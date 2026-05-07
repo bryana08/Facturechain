@@ -7,10 +7,16 @@ export default function ResponsiveHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { href: "/dashboard", label: "Dashboard" },
-    { href: "/reclamation", label: "Réclamation" },
-    { href: "/suivi", label: "Suivi" },
-    { href: "/profile", label: "Profil" },
+    { href: "/dashboard",     label: "Dashboard" },
+    { href: "/scanner",      label: "Scanner IA" },
+    { href: "/audit",        label: "Audit" },
+    { href: "/observatoire", label: "Observatoire" },
+    { href: "/preuves",      label: "Preuves" },
+    { href: "/reclamation",  label: "Réclamation" },
+    { href: "/suivi",        label: "Suivi" },
+    { href: "/juridique",    label: "Portail ARSEL" },
+    { href: "/conformite",   label: "Audit Trail" },
+    { href: "/profile",      label: "Profil" },
   ];
 
   const closeMenu = () => setMobileMenuOpen(false);

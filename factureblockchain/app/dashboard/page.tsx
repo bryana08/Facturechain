@@ -147,8 +147,20 @@ export default function DashboardPage() {
                 </p>
                 <div className="mt-3 md:mt-8 grid gap-2 md:gap-3">
                   <Link
-                    href="/dashboard/consommation"
+                    href="/scanner"
                     className="rounded-full md:rounded-3xl bg-orange-500 px-3 md:px-5 py-2 md:py-4 text-xs md:text-sm font-bold text-slate-950 text-center transition hover:bg-orange-400"
+                  >
+                    📷 Scanner compteur
+                  </Link>
+                  <Link
+                    href="/audit"
+                    className="rounded-full md:rounded-3xl border border-orange-400/30 bg-orange-500/10 px-3 md:px-5 py-2 md:py-4 text-xs md:text-sm font-semibold text-orange-300 text-center transition hover:bg-orange-500/20"
+                  >
+                    🔍 Lancer l’audit
+                  </Link>
+                  <Link
+                    href="/dashboard/consommation"
+                    className="rounded-full md:rounded-3xl border border-white/10 bg-white/5 px-3 md:px-5 py-2 md:py-4 text-xs md:text-sm font-semibold text-white text-center transition hover:border-white/20 hover:bg-white/10"
                   >
                     Consommation
                   </Link>

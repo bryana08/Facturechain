@@ -105,7 +105,7 @@ export default function DashboardConsommationPage() {
                 <p className="mt-4 text-sm leading-7 text-slate-300">
                   Le détail de la consommation confirme un écart de +24.7% sur
                   Août 2026. Ce contraste entre la mesure réelle blockchain et
-                  la facture ENEO sert de base à une éventuelle réclamation.
+                  la facture SOCADEL sert de base à une éventuelle réclamation.
                 </p>
                 <div className="mt-8 grid gap-4 sm:grid-cols-2">
                   {[
