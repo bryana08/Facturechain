@@ -14,7 +14,7 @@
 - **Suivi de Résolution** : Timeline de traitement des plaintes pour éviter les silences administratifs.
 
 ## 🛠️ Stack Technique
-- **Frontend** : HTML5, CSS3 (Design Navy & Orange), JavaScript (Fetch API).
+- **Frontend** :typescript , HTML5, CSS3 (Design Navy & Orange), JavaScript (Fetch API).
 - **Backend** : Python 3.10+ avec **FastAPI**.
 - **Blockchain** : Simulation de Smart Contracts (Solidity/Polygon).
 - **Déploiement** : Hébergé sur **Vercel**.
