@@ -133,6 +133,19 @@ export default function LoginPage() {
           🚀 Accéder à la démo
         </button>
       </div>
+      <div style={{
+  marginTop: '1.5rem',
+  padding: '1rem',
+  background: 'rgba(249, 115, 22, 0.1)',
+  border: '1px solid rgba(249, 115, 22, 0.3)',
+  borderRadius: '10px',
+  fontSize: '0.8rem',
+  color: '#94a3b8',
+}}>
+  <strong style={{ color: '#f97316' }}>Comptes de test :</strong><br/>
+  📧 abonne@eneo.cm / 1234<br/>
+  📧 admin@eneo.cm / admin123
+</div>
     </div>
   )
 }
