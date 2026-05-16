@@ -10,7 +10,7 @@ const MOCK_USERS = [
 
 export default function LoginPage() {
   const router = useRouter()
-  const [tab, setTab] = useState<'login' | 'register'>('login')
+  const [tab, setTab] = useState('login')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
